@@ -2,7 +2,7 @@
 
 [![GoDev][godev-image]][godev-url]
 
-patb パッケージは正規表現 LIKE な文字列パターンマッチを提供します.
+go-patb パッケージは正規表現 LIKE な文字列パターンマッチを提供します.
 
 ## Usage
 

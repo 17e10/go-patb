@@ -56,14 +56,14 @@ func Lower() CharClass {
 // Upper は英大文字 A-Z にマッチする CharClass を返します.
 func Upper() CharClass {
 	return func(r rune) bool {
-		return 'A' <= r && r <= 'A'
+		return 'A' <= r && r <= 'Z'
 	}
 }
 
 // Alphabet は英字 A-Z, a-z にマッチする CharClass を返します.
 func Alphabet() CharClass {
 	return func(r rune) bool {
-		if 'A' <= r && r <= 'A' {
+		if 'A' <= r && r <= 'Z' {
 			return true
 		} else if 'a' <= r && r <= 'z' {
 			return true
